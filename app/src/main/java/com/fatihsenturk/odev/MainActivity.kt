@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(myToolbar)
 
-        button.setOnClickListener { val intent = Intent(this, HakkimdaActivity::class.java)
+        fthbuton.setOnClickListener { val intent = Intent(this, HakkimdaActivity::class.java)
         startActivity(intent)
         }
 
